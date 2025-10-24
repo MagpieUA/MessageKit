@@ -29,7 +29,7 @@ let package = Package(
         .library(name: "MessageKit", targets: ["MessageKit"])
     ],
     dependencies: [
-        .package(url: "https://github.com/MagpieUA/InputBarAccessoryView", .upToNextMajor(from: "7.0.0")),
+        .package(url: "https://github.com/MagpieUA/InputBarAccessoryView", .branch("master")),
     ],
     targets: [
         // MARK: - MessageKit
